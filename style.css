@@ -16,9 +16,10 @@ a.active {
 }
 
 .list-group {
-    padding-bottom: 50vh;
     margin-left: 70px;
+    margin-bottom: 400px;
 }
+
 
 .col-4 {
     width: 230px;
@@ -36,6 +37,11 @@ h1 {
 h2 {
     font-size: 64px;
     text-align: left;
+}
+
+h3 {
+    margin-left: 120px;
+    margin-bottom: 20px;
 }
 
 h4 {
@@ -57,6 +63,10 @@ p {
 
 .darkblue {
     color: #0A3FC7;
+}
+
+.weight {
+    font-weight: 250;
 }
 
 .col1 {
@@ -171,15 +181,14 @@ p {
   background-image: none;
 }
 
-.carousel-control-next-icon:after
-{
+.carousel-control-next-icon:after {
   content: '>';
   font-size: 55px;
   color: #0091E3;
 }
 
 .carousel-control-prev-icon:after {
-  content: '<';
+  content: '<'; 
   font-size: 55px;
   color: #0091E3;
-}
+} 
