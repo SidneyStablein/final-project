@@ -16,7 +16,7 @@ a.active {
 }
 
 .list-group {
-    padding-bottom: 140px;
+    padding-bottom: 50vh;
     margin-left: 70px;
 }
 
@@ -36,6 +36,15 @@ h1 {
 h2 {
     font-size: 64px;
     text-align: left;
+}
+
+h4 {
+    margin-left: 120px;
+    margin-bottom: 20px;
+}
+
+.SE {
+    margin-top: 260px;
 }
 
 p {
@@ -137,9 +146,8 @@ p {
 .Parent { 
     display: flex; 
     flex-direction: row; 
-    margin-top: 260px;
     margin-bottom: 100px;
-    margin-left: 80px;
+    margin-left: 115px;
 } 
 
 .child1 {  
@@ -147,7 +155,6 @@ p {
     color: white; 
     width: 329px;
     margin-right: 20px;
-    margin-left: 80px;
 } 
 
 .child2 { 
