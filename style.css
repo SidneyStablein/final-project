@@ -8,14 +8,16 @@ a.active {
     padding-top: 15px;
     padding-bottom: 15px;
     background-color: white;
+    margin-bottom: 260px;
 }
 
 .list-group-item {
-    width: 145px;
+    width: 150px;
 }
 
 .list-group {
-    padding-bottom: 500px;
+    padding-bottom: 140px;
+    margin-left: 70px;
 }
 
 .col-4 {
@@ -72,20 +74,26 @@ h1 {
 .july {
     width: 329px;
     height: 585px;
+    margin-top: 20px;
 }
 
 .Parent { 
     display: flex; 
-    flex-direction: row; 
+    flex-direction: row;
+    margin-bottom: 30px; 
+    margin-top: 260px;
 } 
 
-.child1 { 
-    width: 50%; 
+.child1 {  
     height: 100vh;   
     color: white; 
+    width: 329px;
+    margin-right: 20px;
+    margin-left: 80px;
 } 
 
 .child2 { 
-    width: 50%; 
+    width: 329px;
     height: 100vh; 
+    margin-right: 20px;
 }
