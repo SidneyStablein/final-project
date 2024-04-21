@@ -37,6 +37,7 @@ h1 {
 h2 {
     font-size: 64px;
     text-align: left;
+    margin-bottom: 30px;
 }
 
 h3 {
@@ -55,6 +56,11 @@ h4 {
 
 p {
     font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    margin-right: 15px;
 }
 
 .lightblue {
@@ -130,6 +136,12 @@ p {
 
 .headshot {
     margin-right: 40px;
+    width: 287px;
+    height: 287px;
+}
+
+.paragraph {
+    width: 641px;
 }
 
 .planet {
@@ -151,6 +163,7 @@ p {
     display: flex;
     flex-direction: row;
     text-align: left;
+    justify-content: center;
 }
 
 .Parent { 
