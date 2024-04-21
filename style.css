@@ -65,10 +65,6 @@ p {
     flex-direction: column;
 }
 
-.LIicon {
-    margin-right: 20px;
-}
-
 .square {
     width: 403px;
     height: 403px;
@@ -117,6 +113,21 @@ p {
     margin-right: 40px;
 }
 
+.planet {
+    width: 1045px;
+    height: 588px;
+}
+
+.c7 {
+    width: 1067px;
+    height: 687px;
+}
+
+.carousel-inner {
+    text-align: center;
+}
+
+
 .flex {
     display: flex;
     flex-direction: row;
@@ -128,6 +139,7 @@ p {
     flex-direction: row; 
     margin-top: 260px;
     margin-bottom: 100px;
+    margin-left: 80px;
 } 
 
 .child1 {  
@@ -142,4 +154,25 @@ p {
     width: 329px;
     height: 100vh; 
     margin-right: 20px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  background-size: 100%, 100%;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: #0091E3;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: #0091E3;
 }
