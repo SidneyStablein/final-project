@@ -33,6 +33,15 @@ h1 {
     text-align: center;
 }
 
+h2 {
+    font-size: 64px;
+    text-align: left;
+}
+
+p {
+    font-size: 16px;
+}
+
 .lightblue {
     color: #0091E3;
 }
@@ -54,6 +63,10 @@ h1 {
 .col3 {
     display: flex;
     flex-direction: column;
+}
+
+.LIicon {
+    margin-right: 20px;
 }
 
 .square {
@@ -100,9 +113,14 @@ h1 {
     margin-bottom: 20px;
 }
 
+.headshot {
+    margin-right: 40px;
+}
+
 .flex {
     display: flex;
     flex-direction: row;
+    text-align: left;
 }
 
 .Parent { 
