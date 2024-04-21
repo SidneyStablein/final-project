@@ -3,10 +3,33 @@ a.active {
     font-weight: bold;
 }
 
+.nav {
+    box-shadow: 1px 0px 5px rgb(0, 0, 0, 0.4);
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
 .list-group-item {
     width: 145px;
 }
 
 .col-4 {
     width: 230px;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+h1 {
+    font-size: 64px;
+    text-align: center;
+}
+
+.lightblue {
+    color: #0091E3;
+}
+
+.darkblue {
+    color: #0A3FC7;
 }
