@@ -1,0 +1,12 @@
+/* Add screen styles below */
+a.active {
+    font-weight: bold;
+}
+
+.list-group-item {
+    width: 145px;
+}
+
+.col-4 {
+    width: 230px;
+}
